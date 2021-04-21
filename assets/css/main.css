@@ -1,0 +1,360 @@
+/* header-start */
+
+.header_navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  height: 70px;
+  margin: auto;
+  background: black;
+  position: fixed !important;
+  padding-top: 10px;
+  padding-right: 100px;
+  top: 0;
+  z-index: 5;
+}
+
+.logo {
+  font-weight: 700;
+  text-decoration: none;
+  color: white !important;
+}
+
+.header_navbar ul li a {
+  display: block;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.2);
+  background-color: #f07a7a;
+  border-radius: 23%;
+}
+.header_navbar-list {
+  list-style: none;
+  padding-left: 0 20px;
+}
+
+.header_navbar-item {
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+/* header-end */
+
+/* aboutme-start */
+
+section {
+  display: block;
+  margin-top: 100px;
+}
+
+.img-fluid {
+  width: 400px;
+  height: 600px;
+  margin-left: 200px;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex2 {
+  flex: 1;
+}
+
+.row {
+  display: flex;
+}
+
+.hover-state {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.about-desc-content {
+  margin-top: 150px;
+}
+/* icon */
+.about-desc-social li a {
+  display: block;
+  text-align: center;
+  border: 1px solid #dee2e6;
+  color: #333;
+  height: 50px;
+  width: 50px;
+  line-height: 45px;
+  border-radius: 60px;
+  overflow: hidden;
+  font-size: 1.7rem;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.about-desc-social {
+  display: flex;
+  justify-content: start;
+}
+
+/* mô tả trái */
+.about-desc-more {
+  box-sizing: border-content;
+  -moz-box-sizing: border-content;
+  -webkit-box-sizing: border-conten;
+}
+.about-desc-more {
+  width: 500px;
+  height: 400px;
+  padding: 10px;
+  overflow: auto;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.cot1 {
+  width: 300px;
+  float: left;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.about-desc-info {
+  padding-bottom: 30px;
+  position: relative;
+}
+
+/* aboutme-end */
+
+/* START- SỞ THÍCH */
+
+/* màu chuyển khối */
+.section-dark {
+  background: #f7f7f7;
+  height: 800px;
+}
+.section-head {
+  text-align: center;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+
+.col-sm-4 {
+  width: 330px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.image {
+  width: 330px;
+  height: 300px;
+}
+
+.pourcolor {
+  width: 330px;
+  height: 300px;
+  word-wrap: break-word;
+  top: 48%;
+  left: 14%;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  z-index: 3;
+  padding: 5px 3px;
+  transition: 0.4s;
+  transform: scale(1);
+  opacity: 0;
+}
+
+.color {
+  width: 330px;
+  height: 300px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: #000000ab;
+  z-index: 3;
+  opacity: 0;
+  transition: 0.4s;
+}
+.guitar:hover .color {
+  opacity: 1;
+}
+.reading:hover .color {
+  opacity: 1;
+}
+.swimming:hover .color {
+  opacity: 1;
+}
+.travelling:hover .color {
+  opacity: 1;
+}
+.cooking:hover .color {
+  opacity: 1;
+}
+.watching:hover .color {
+  opacity: 1;
+}
+.guitar:hover .pourcolor {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.reading:hover .pourcolor {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.swimming:hover .pourcolor {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.travelling:hover .pourcolor {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.cooking:hover .pourcolor {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.watching:hover .pourcolor {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.tang1 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tang2 {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pourcolor h3 {
+  margin: 0px;
+  padding: 0px 60px;
+  font-size: 24px;
+}
+
+/* HISTORY */
+
+.history {
+  width: 1200px;
+  height: 645px;
+  margin: 100px auto;
+  font-size: 20px;
+}
+
+.hoc {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  border: 1px solid #fa8bac;
+  color: #f07a7a;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  font-size: 1.9rem;
+  margin-top: 30px;
+}
+
+table {
+  border-spacing: 70px 10px;
+}
+tr:hover {
+  background-color: #ddd;
+}
+
+/* nghiên cứu */
+
+.nghiencuu {
+  display: flex;
+  justify-content: space-evenly;
+}
+.anh {
+  width: 450px;
+  height: 310px;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.anh1 {
+  background-image: url(../img/become-a-web-designer.jpg);
+  background-size: cover;
+}
+
+.anh2 {
+  background-image: url(../img/bigger_act_course_from_scratch.png);
+  background-size: cover;
+}
+.anh3 {
+  background-image: url(../img/shutterstock_1188713476_2.jpg);
+  background-size: cover;
+}
+
+/* contact */
+
+.to {
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(17, 1fr);
+  grid-template-rows: minmax(50px, auto);
+}
+
+.form {
+  border: 1px solid #80808000;
+  grid-column: 6/9;
+  grid-row: 3;
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 0px 14px 0px grey;
+  background-color: white;
+}
+h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+label {
+  display: block;
+  font-weight: lighter;
+  font-size: 18px;
+}
+input {
+  display: block;
+  border-bottom: 2px solid #00bcd4;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  outline-style: none;
+}
+input[type="text"] {
+  padding: 15px;
+  width: 70%;
+}
+
+/* send */
+input#submit {
+  padding: 15px;
+  width: 30%;
+  border-radius: 20px;
+  border: none;
+  position: absolute;
+  bottom: 50px;
+  cursor: pointer;
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+input#submit:hover {
+  background: linear-gradient(to right, #fc466b, #3f5efb);
+}
